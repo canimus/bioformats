@@ -1,0 +1,9 @@
+docker run -d -v $PWD:/usr/src -w /usr/src --rm bf:1.0.2 python load_image_threads.py --file 180509_Permeabilisation_Test.lif --size 0,50 --dest a.gz
+docker run -d -v $PWD:/usr/src -w /usr/src --rm bf:1.0.2 python load_image_threads.py --file 180509_Permeabilisation_Test.lif --size 51,100 --dest a.gz
+docker run -d -v $PWD:/usr/src -w /usr/src --rm bf:1.0.2 python load_image_threads.py --file 180509_Permeabilisation_Test.lif --size 101,150 --dest a.gz
+docker run -d -v $PWD:/usr/src -w /usr/src --rm bf:1.0.2 python load_image_threads.py --file 180509_Permeabilisation_Test.lif --size 151,200 --dest a.gz
+docker run -d -v $PWD:/usr/src -w /usr/src --rm bf:1.0.2 python load_image_threads.py --file 180509_Permeabilisation_Test.lif --size 201,250 --dest a.gz
+docker run -d -v $PWD:/usr/src -w /usr/src --rm bf:1.0.2 python load_image_threads.py --file 180509_Permeabilisation_Test.lif --size 251,300 --dest a.gz
+docker run -d -v $PWD:/usr/src -w /usr/src --rm bf:1.0.2 python load_image_threads.py --file 180509_Permeabilisation_Test.lif --size 301,350 --dest a.gz
+docker run -d -v $PWD:/usr/src -w /usr/src --rm bf:1.0.2 python load_image_threads.py --file 180509_Permeabilisation_Test.lif --size 351,400 --dest a.gz
+docker run -d -v $PWD:/usr/src -w /usr/src --rm bf:1.0.2 python load_image_threads.py --file 180509_Permeabilisation_Test.lif --size 401,407 --dest a.gz
