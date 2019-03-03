@@ -12,3 +12,4 @@ RUN pip install matplotlib
 RUN pip install networkx
 RUN pip install scikit-learn
 RUN pip install statsmodels
+RUN pip install lxml
